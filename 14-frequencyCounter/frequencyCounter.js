@@ -1,5 +1,11 @@
 function frequencyCounter(word) {
-  // Insert code here;
+  let obj = {};
+  obj = word.split('').reduce((count, char) => {
+    count[char] ? count[char]++ : count[char] = 1;
+    return count;
+  }, {});
+  
+  return obj;
 }
 
 // Do not edit this line;

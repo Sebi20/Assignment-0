@@ -1,6 +1,7 @@
 function greetFriend(name) {
-  console.log(`Hello, ${name}`);
+  let greet = `Hello, ${name}!`;
+  return greet;
 }
-greetFriend("Brian");
+
 // Do not edit this line;
 module.exports = greetFriend;
